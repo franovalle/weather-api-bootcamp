@@ -1,4 +1,4 @@
-//Note to self: change access key before submitting because it will runout 
+//Note to self: change access key before submitting because it will runout-done!
 document.querySelector('button').addEventListener('click', getTemp)
 function getTemp() {
     const location = document.querySelector('input').value
