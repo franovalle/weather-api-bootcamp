@@ -2,7 +2,7 @@
 document.querySelector('button').addEventListener('click', getTemp)
 function getTemp() {
     const location = document.querySelector('input').value
-    const url = `https://api.weatherstack.com/current?access_key=cd76b4f7a47f77c39ed1a65cd5479af3&query=${location}&units=f`
+    const url = `https://api.weatherstack.com/current?access_key=efad0454454762ee90d69c1d2621dc17&query=${location}&units=f`
     fetch(url)
         .then(res => res.json())
         .then(data => {
